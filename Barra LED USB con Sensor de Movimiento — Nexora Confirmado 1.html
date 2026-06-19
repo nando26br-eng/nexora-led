@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)file:///D:/Datos/Downloads/index.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barra LED USB con Sensor de Movimiento — Nexora</title>
+  <meta name="description" content="Luz automática que se enciende sola. Sin cables, sin pilas. Sensor de movimiento, carga USB, 50cm de aluminio. Envío gratis a todo el país.">
+  <meta property="og:title" content="La luz que se enciende sola cuando la necesitás">
+  <meta property="og:description" content="Barra LED USB con sensor de movimiento. Sin cables ni pilas. $34.999 con envío gratis.">
+  <meta property="og:image" content="https://ae01.alicdn.com/kf/Sf8adfc1454614bc69a8ef174a9cd7f09e.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link href="./Barra LED USB con Sensor de Movimiento — Nexora Confirmado 1_files/css2" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: #080808; color: #f0f0f0; font-family: 'Inter', sans-serif; }
+
+    /* ── TOPBAR ── */
+    .topbar {
+      background: #f5b800;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: #0a0a0a;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 60px 24px 52px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      background: #080808;
+    }
+    .hero-glow {
+      position: absolute;
+      top: -80px; left: 50%; transform: translateX(-50%);
+      width: 600px; height: 320px;
+      background: radial-gradient(ellipse, rgba(245,184,0,0.13) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-glow-floor {
+      position: absolute;
+      bottom: 0; left: 50%; transform: translateX(-50%);
+      width: 500px; height: 100px;
+      background: radial-gradient(ellipse, rgba(245,184,0,0.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .badge-row {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 5px 14px;
+      border-radius: 100px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+    .bf { background: rgba(245,184,0,0.15); color: #f5b800; border: 1px solid rgba(245,184,0,0.3); }
+    .bg { background: rgba(74,222,128,0.1); color: #4ade80; border: 1px solid rgba(74,222,128,0.25); }
+
+    .hero h1 {
+      font-size: clamp(30px, 6vw, 54px);
+      font-weight: 900;
+      line-height: 1.08;
+      color: #fff;
+      letter-spacing: -0.03em;
+      margin-bottom: 16px;
+    }
+    .hero h1 em { color: #f5b800; font-style: normal; display: block; }
+    .hero-desc {
+      font-size: clamp(14px, 2.2vw, 17px);
+      color: #9ca3af;
+      max-width: 480px;
+      margin: 0 auto 32px;
+      line-height: 1.65;
+    }
+    .hero-img {
+      max-width: 500px;
+      margin: 0 auto 36px;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid #1a2535;
+    }
+    .hero-img img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    /* ── BOTONES ── */
+    .btn-pay {
+      display: block;
+      background: #f5b800;
+      color: #080808;
+      font-size: 18px;
+      font-weight: 900;
+      padding: 19px 0;
+      border-radius: 100px;
+      text-align: center;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto 12px;
+      text-decoration: none;
+      transition: transform 0.15s, background 0.15s;
+    }
+    .btn-pay:hover { transform: scale(1.02); background: #ffc933; }
+    .btn-store {
+      display: block;
+      color: #6b7280;
+      font-size: 13px;
+      text-align: center;
+      text-decoration: none;
+      padding: 4px 0;
+      max-width: 400px;
+      margin: 0 auto;
+      transition: color 0.15s;
+    }
+    .btn-store:hover { color: #9ca3af; }
+    .pay-row {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .pay-chip {
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 8px;
+      padding: 5px 13px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #9ca3af;
+    }
+
+    /* ── DIVISOR ── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #1f2937, transparent);
+      margin: 0 24px;
+    }
+
+    /* ── SECCIONES ── */
+    .sec { padding: 52px 24px; }
+    .sec-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #f5b800;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+    .sec h2 {
+      font-size: clamp(22px, 4vw, 34px);
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: -0.02em;
+      text-align: center;
+      margin-bottom: 8px;
+      line-height: 1.15;
+    }
+    .sec h2 em { color: #f5b800; font-style: normal; }
+    .sec-sub {
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+      margin-bottom: 32px;
+      line-height: 1.6;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ── GALERÍA DE FOTOS ── */
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .photo-grid img {
+      width: 100%;
+      border-radius: 14px;
+      display: block;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;
+      border: 1px solid #1a2535;
+      transition: transform 0.2s;
+    }
+    .photo-grid img:hover { transform: scale(1.02); }
+
+    /* ── FEATURES ── */
+    .feat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .feat {
+      background: #0f1520;
+      border: 1px solid #1a2535;
+      border-radius: 16px;
+      padding: 22px 18px;
+      transition: border-color 0.2s;
+    }
+    .feat:hover { border-color: rgba(245,184,0,0.4); }
+    .feat-icon { font-size: 26px; margin-bottom: 12px; display: block; }
+    .feat h3 { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    .feat p { font-size: 13px; color: #6b7280; line-height: 1.5; }
+
+    /* ── SPECS ── */
+    .specs-row {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      flex-wrap: wrap;
+      max-width: 560px;
+      margin: 0 auto;
+      border: 1px solid #1a2535;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    .spec {
+      flex: 1;
+      min-width: 120px;
+      text-align: center;
+      padding: 20px 16px;
+      background: #0f1520;
+      border-right: 1px solid #1a2535;
+    }
+    .spec:last-child { border-right: none; }
+    .spec-val { font-size: 22px; font-weight: 900; color: #f5b800; letter-spacing: -0.02em; }
+    .spec-lbl { font-size: 11px; color: #6b7280; margin-top: 4px; }
+
+    /* ── USOS ── */
+    .uses-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+    .use {
+      background: #0f1520;
+      border: 1px solid #1a2535;
+      border-radius: 14px;
+      padding: 18px 10px;
+      text-align: center;
+      transition: border-color 0.2s;
+    }
+    .use:hover { border-color: rgba(245,184,0,0.3); }
+    .use span { font-size: 24px; display: block; margin-bottom: 7px; }
+    .use p { font-size: 12px; font-weight: 600; color: #d1d5db; }
+
+    /* ── INCLUYE ── */
+    .inc-box {
+      background: #0f1520;
+      border: 1px solid #1a2535;
+      border-radius: 20px;
+      padding: 28px 24px;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+    .inc-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid #1a2535;
+    }
+    .inc-item:last-child { border-bottom: none; }
+    .inc-dot { width: 8px; height: 8px; background: #f5b800; border-radius: 50%; flex-shrink: 0; }
+    .inc-item p { font-size: 14px; color: #d1d5db; line-height: 1.4; }
+
+    /* ── REVIEWS ── */
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+      max-width: 680px;
+      margin: 0 auto 36px;
+    }
+    .rev {
+      background: #0f1520;
+      border: 1px solid #1a2535;
+      border-radius: 14px;
+      padding: 20px;
+    }
+    .stars { color: #f5b800; font-size: 14px; margin-bottom: 10px; }
+    .rev p { font-size: 13px; color: #d1d5db; line-height: 1.55; font-style: italic; margin-bottom: 12px; }
+    .rev-name { font-size: 11px; color: #6b7280; font-weight: 600; }
+
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 36px;
+      flex-wrap: wrap;
+    }
+    .stat { text-align: center; }
+    .stat-n { font-size: 30px; font-weight: 900; color: #f5b800; letter-spacing: -0.02em; }
+    .stat-l { font-size: 11px; color: #6b7280; margin-top: 3px; }
+
+    /* ── FINAL CTA ── */
+    .final {
+      background: #0f1520;
+      border-top: 1px solid #1f2937;
+      padding: 60px 24px 52px;
+      text-align: center;
+    }
+    .final h2 {
+      font-size: clamp(24px, 5vw, 44px);
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: -0.025em;
+      margin-bottom: 10px;
+      line-height: 1.1;
+    }
+    .final h2 em { color: #f5b800; font-style: normal; }
+    .final > p {
+      color: #9ca3af;
+      font-size: 15px;
+      margin-bottom: 32px;
+      line-height: 1.65;
+      max-width: 440px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .g-row {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .g-item { font-size: 12px; color: #6b7280; }
+    .g-item b { color: #4ade80; }
+
+    /* ── FOOTER ── */
+    .footer {
+      background: #080808;
+      border-top: 1px solid #1a2535;
+      padding: 28px 24px;
+      text-align: center;
+    }
+    .footer-logo { font-size: 22px; font-weight: 900; color: #fff; letter-spacing: -0.02em; margin-bottom: 6px; }
+    .footer-logo span { color: #f5b800; }
+    .footer p { font-size: 12px; color: #374151; margin-top: 4px; }
+    .footer a { color: #f5b800; text-decoration: none; font-weight: 600; }
+    .footer a:hover { text-decoration: underline; }
+
+    /* ── MOBILE ── */
+    @media (max-width: 480px) {
+      .specs-row { border-radius: 12px; }
+      .spec { min-width: 90px; padding: 16px 10px; }
+      .photo-grid { gap: 8px; }
+      .photo-grid img { border-radius: 10px; }
+      .stats-row { gap: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">🚚 Envío gratis a todo el país &nbsp;·&nbsp; Pago 100% seguro con Mercado Pago</div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-glow-floor"></div>
+
+    <div class="badge-row">
+      <span class="badge bf">🔥 Más vendido del mes</span>
+      <span class="badge bg">✓ +500 clientes felices</span>
+    </div>
+
+    <h1>La luz que se enciende<br><em>sola cuando la necesitás</em></h1>
+    <p class="hero-desc">Sensor de movimiento automático. Carga USB. Sin cables, sin pilas, sin instalación. Lista en 2 minutos.</p>
+
+    <div class="hero-img">
+      <img src="./Barra LED USB con Sensor de Movimiento — Nexora Confirmado 1_files/Sf8adfc1454614bc69a8ef174a9cd7f09e.png" alt="Barra LED USB con sensor de movimiento 50cm">
+    </div>
+
+    <!-- ⚡ REEMPLAZÁ LA URL ABAJO CON TU LINK DE MERCADO PAGO -->
+    <a class="btn-pay" href="https://mpago.la/26wzKzv" target="_blank">
+      Comprar ahora — $34.999
+    </a>
+    <a class="btn-store" href="https://nexora-26.lovable.app/" target="_blank">
+      Ver más productos en la tienda →
+    </a>
+    <div class="pay-row">
+      <span class="pay-chip">Mercado Pago</span>
+      <span class="pay-chip">Visa</span>
+      <span class="pay-chip">Mastercard</span>
+      <span class="pay-chip">Transferencia</span>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- FOTOS -->
+  <section class="sec" style="background:#0a0a0a;">
+    <div class="sec-label">El producto</div>
+    <h2>Mirala en<br><em>acción real</em></h2>
+    <p class="sec-sub">En el dormitorio, el placard, la cocina. En cualquier rincón que necesite luz.</p>
+    <div class="photo-grid">
+      <img src="./Barra LED USB con Sensor de Movimiento — Nexora Confirmado 1_files/Se475e55118b74ac4bf00e09a5328059eM.jpg" alt="Barra LED bajo la cama sensor movimiento">
+      <img src="./Barra LED USB con Sensor de Movimiento — Nexora Confirmado 1_files/S7f1f3b218cc34bf09d39d72135b9c7dcg.jpg" alt="Barra LED en placard ropero">
+      <img src="./Barra LED USB con Sensor de Movimiento — Nexora Confirmado 1_files/Sd2eb63e90e9946bcbce50261428b90a79.jpg" alt="Barra LED instalada cocina">
+      <img src="./Barra LED USB con Sensor de Movimiento — Nexora Confirmado 1_files/S2f068c2146b9426aa66cdd597045c6a1M.jpg" alt="Barra LED detalle aluminio plateado">
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SPECS -->
+  <section class="sec" style="background:#080808;">
+    <div class="sec-label">Especificaciones</div>
+    <h2>Números que<br><em>importan</em></h2>
+    <p class="sec-sub">Todo lo que necesitás saber antes de comprarlo.</p>
+    <div class="specs-row">
+      <div class="spec"><div class="spec-val">80lm</div><div class="spec-lbl">Brillo</div></div>
+      <div class="spec"><div class="spec-val">50cm</div><div class="spec-lbl">Largo</div></div>
+      <div class="spec"><div class="spec-val">2hs</div><div class="spec-lbl">Carga</div></div>
+      <div class="spec"><div class="spec-val">3hs</div><div class="spec-lbl">Uso continuo</div></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- FEATURES -->
+  <section class="sec" style="background:#0a0a0a;">
+    <div class="sec-label">Por qué funciona</div>
+    <h2>Todo lo que necesitás,<br><em>nada que no</em></h2>
+    <p class="sec-sub">Sin electricista, sin taladro, sin pilas. Solo pegás y funciona.</p>
+    <div class="feat-grid">
+      <div class="feat">
+        <span class="feat-icon">⚡</span>
+        <h3>Se enciende sola</h3>
+        <p>El sensor detecta tu movimiento y la luz aparece al instante. No tocás nada.</p>
+      </div>
+      <div class="feat">
+        <span class="feat-icon">🔋</span>
+        <h3>USB en 2 horas</h3>
+        <p>Carga completa en 2 horas con cualquier puerto USB. Olvidate de las pilas para siempre.</p>
+      </div>
+      <div class="feat">
+        <span class="feat-icon">🧲</span>
+        <h3>Adhesivo + imán</h3>
+        <p>Se fija en cualquier superficie plana o metálica. Sin dañar paredes ni muebles.</p>
+      </div>
+      <div class="feat">
+        <span class="feat-icon">✨</span>
+        <h3>Aluminio premium</h3>
+        <p>Cuerpo plateado de alta calidad. 80 lúmenes parejos en toda la barra de 50 cm.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- USOS -->
+  <section class="sec" style="background:#080808;">
+    <div class="sec-label">Dónde usarla</div>
+    <h2>Un producto,<br><em>decenas de lugares</em></h2>
+    <p class="sec-sub">Cualquier rincón que necesite luz sin complicaciones.</p>
+    <div class="uses-grid">
+      <div class="use"><span>🛏️</span><p>Bajo la cama</p></div>
+      <div class="use"><span>👕</span><p>En el placard</p></div>
+      <div class="use"><span>🚪</span><p>Entrada de casa</p></div>
+      <div class="use"><span>🍳</span><p>Bajo el mesón</p></div>
+      <div class="use"><span>📦</span><p>Depósito</p></div>
+      <div class="use"><span>🚗</span><p>Garage</p></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- INCLUYE -->
+  <section class="sec" style="background:#0a0a0a;">
+    <div class="sec-label">Qué incluye</div>
+    <h2>Todo listo<br><em>para instalar</em></h2>
+    <p class="sec-sub">Abrís la caja y en 2 minutos ya está funcionando.</p>
+    <div class="inc-box">
+      <div class="inc-item"><div class="inc-dot"></div><p>1 Barra LED recargable de 50 cm — aluminio plateado</p></div>
+      <div class="inc-item"><div class="inc-dot"></div><p>2 Bases metálicas con adhesivo incluido</p></div>
+      <div class="inc-item"><div class="inc-dot"></div><p>1 Cable de carga USB</p></div>
+      <div class="inc-item"><div class="inc-dot"></div><p>1 Manual del usuario en español</p></div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- REVIEWS -->
+  <section class="sec" style="background:#080808;">
+    <div class="sec-label">Lo que dicen</div>
+    <h2>Más de 500 personas<br><em>ya la tienen</em></h2>
+    <p class="sec-sub">Y ninguna volvió a buscar el interruptor a oscuras.</p>
+    <div class="reviews-grid">
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"La puse bajo la cama y ya no me despierto a los tumbos de noche. Imposible vivir sin esto."</p>
+        <div class="rev-name">— Mariela G., Córdoba</div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"Mi placard se convirtió en otra cosa. La instalé en 2 minutos y queda perfecta."</p>
+        <div class="rev-name">— Lucas P., Buenos Aires</div>
+      </div>
+      <div class="rev">
+        <div class="stars">★★★★☆</div>
+        <p>"Le regalé una a mi mamá para que no prenda la luz de noche. Quedó fascinada."</p>
+        <div class="rev-name">— Romina T., Rosario</div>
+      </div>
+    </div>
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">+500</div><div class="stat-l">vendidas este mes</div></div>
+      <div class="stat"><div class="stat-n">4.9★</div><div class="stat-l">calificación promedio</div></div>
+      <div class="stat"><div class="stat-n">48hs</div><div class="stat-l">entrega express</div></div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final">
+    <h2>Tu casa merece<br><em>mejor iluminación</em></h2>
+    <p>Un solo pago, instalación en minutos. Nunca más buscás el interruptor a oscuras.</p>
+
+    <!-- ⚡ REEMPLAZÁ LA URL ABAJO CON TU LINK DE MERCADO PAGO -->
+    <a class="btn-pay" href="https://mpago.la/26wzKzv" target="_blank">
+      Comprar ahora — $34.999
+    </a>
+    <a class="btn-store" href="https://nexora-26.lovable.app/" target="_blank">
+      Ver más productos en la tienda →
+    </a>
+    <div class="g-row">
+      <span class="g-item"><b>🔒</b> Pago 100% seguro</span>
+      <span class="g-item"><b>📦</b> Envío gratis</span>
+      <span class="g-item"><b>⚡</b> Entrega en 48hs</span>
+      <span class="g-item"><b>✅</b> Mercado Pago</span>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-logo">Nexora<span>.</span></div>
+    <p>¿Querés explorar más productos? <a href="https://nexora-26.lovable.app/" target="_blank">Visitá la tienda completa →</a></p>
+    <p style="margin-top: 6px;">© 2026 Nexora &nbsp;·&nbsp; Hecho en Argentina 🇦🇷</p>
+  </footer>
+
+
+
+</body></html>
